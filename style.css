@@ -1153,17 +1153,19 @@ margin-bottom:15px;
 .contact-card a{
 
 color:#ddd;
-font-size:15px;
+font-size:14px;
 line-height:1.7;
 text-align:center;
 
-display:block;
+display:flex;
+justify-content:center;
+align-items:center;
 
-width:100%;
+min-height:55px;
 
-word-break:break-word;
-overflow-wrap:break-word;
-white-space:normal;
+word-break:break-all;
+
+}
 
 
 }
