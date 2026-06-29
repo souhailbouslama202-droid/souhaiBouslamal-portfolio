@@ -1118,10 +1118,9 @@ margin:60px 0;
 }
 
 .contact-card{
-
 background:rgba(18,18,18,.82);
 
-padding:35px;
+padding:35px 20px;
 
 border-radius:22px;
 
@@ -1131,6 +1130,7 @@ transition:.4s;
 
 text-align:center;
 
+overflow:hidden
 }
 
 .contact-card:hover{
@@ -1150,10 +1150,21 @@ margin-bottom:15px;
 }
 
 .contact-card p,
-
 .contact-card a{
 
 color:#ddd;
+font-size:15px;
+line-height:1.7;
+text-align:center;
+
+display:block;
+
+width:100%;
+
+word-break:break-word;
+overflow-wrap:break-word;
+white-space:normal;
+
 
 }
 
