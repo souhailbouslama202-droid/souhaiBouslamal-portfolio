@@ -1168,7 +1168,7 @@ word-break:break-all;
 }
 
 
-}
+
 
 .contact-buttons{
 
@@ -1314,22 +1314,23 @@ font-size:17px;
 
 grid-template-columns:1fr;
 
+.contact-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
 }
 
-.contact-buttons{
-
-flex-direction:column;
-
+.contact-buttons a{
+    width:100%;
+    max-width:320px;
 }
 
 .btn-primary,
-
 .btn-secondary{
-
-width:100%;
-
-text-align:center;
-
+    width:100%;
+    max-width:320px;
+    text-align:center;
 }
 
 .footer-logo{
